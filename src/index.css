@@ -1,0 +1,133 @@
+/* .main_products {
+  margin: 50px;
+  /* display: inline-flex; */
+
+
+body {
+  background-color: aliceblue;
+}
+
+.product_image_inside {
+  object-fit: fill;
+  height: 200px;
+  width: 166px;
+}
+
+.Header {
+  background-color: rgba(56, 52, 252, 0.859);
+  padding: 1px;
+  color: white;
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Header .cartbtn{
+  color: blue;
+  position: relative;
+  left: 500px;
+}
+.Header .cartbtn2{
+  color: blue;
+  position: relative;
+  left: 450px;
+}
+
+@media all and (max-width: 1024px) {
+  .Header {
+    width: 100%;
+  }
+}
+
+.product_price {
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.product_rows {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: rgb(136, 254, 254);
+  color: blue;
+  border-radius: 10px;
+  height: 45px;
+}
+.cartbtn{
+  background-color: rgb(136, 254, 254);
+  color: blue;
+  border-radius: 10px;
+  width:80px;
+  height: 45px;
+}
+.cartbtn2 {
+  background-color: rgb(136, 254, 254);
+  color: blue;
+  border-radius: 10px;
+  width:80px;
+  height: 45px;
+}
+.btn:hover{
+  background-color: rgba(56, 52, 252, 0.859);
+  color: white;
+  transition: 0.3s ease;
+}
+.cartbtn:hover{
+  background-color:greenyellow;
+  color: black;
+  font-size: large;
+}
+.cartbtn2:hover{
+  background-color:greenyellow;
+  color: black;
+  font-size: large;
+}
+
+.product_outline {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 480px;
+  margin: 20px 50px;
+}
+
+.product_title {
+  padding: 5px;
+  margin: 5px;
+  height: 38px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.product_image {
+  margin: 5px;
+  text-align: center;
+}
+
+.product_image img {
+  border-radius: 20px;
+}
+.product_dsc{
+  text-align: justify;
+  margin: 8px;
+  height: 100px;
+  overflow:hidden;
+}
+.pnb{
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  /* width: 90vw; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
